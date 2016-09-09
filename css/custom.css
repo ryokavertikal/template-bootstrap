@@ -1,0 +1,103 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family:Arial,sans-serif;
+}
+
+/* fix bs3 horizontal scrollbar bug */
+.row { 
+    margin: 0; 
+    padding: 0; 
+}
+
+.icon-bar {
+   background-color:#fff;
+}
+
+.vert {
+  vertical-align: middle;
+  width:100%;
+  padding-top:4%;
+  text-align:center;
+}
+
+.icon-bar {
+    background-color: white;
+}
+
+.header h1 {
+  font-size:80px;
+  -webkit-text-stroke: 1px rgba(f,f,f,0.1);
+  color:#fff;
+  margin-left:-5px;
+  margin-bottom:5px;
+  text-transform:uppercase;
+  padding-top: 55px;
+    
+}
+
+.header {
+  height: 100%;
+  
+}
+
+.alt {
+  background-color: dodgerblue;
+}
+
+.alt .lead {
+  color: whitesmoke;
+}
+
+.alt li a:hover, .alt li.active {
+  background-color: skyblue;
+}
+
+.header .btn-lg {
+   font-size:28px;
+   border-color: white;
+   padding:15px;
+   background-color:transparent;
+   color:#ffffff;
+}
+
+ .header .btn-lg:hover {
+   background-color: deepskyblue;
+   color:white;
+} 
+
+
+h1,h2,h3,h4,.lead,.btn,.navbar a {
+  text-transform:uppercase;
+  font-family:'Voltaire',Arial,sans-serif;
+  letter-spacing:2px;
+  color: white;
+}
+
+h1 {
+  font-size:50px;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 25px;       
+}
+
+#footer {
+    background-color: dodgerblue;
+    padding: 20px 0;
+    text-align: left;
+    padding-bottom: 0px;
+}
+
+.text-footer {
+    color: white;
+    font-weight: 600;
+}
+
+.text-footer-2 {
+    color: white;
+    font-weight: 600;
+    text-align: right;
+}
